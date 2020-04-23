@@ -1,0 +1,122 @@
+<category id='7'>
+	<product id='1'>
+		<title>Прогулочная коляска Joie Litetrax</title>
+		<price>1750 грн.</price>
+		<image>baby_care_1 </image>
+		<type>Обычная</type>
+		<bloks>Один</bloks>
+		<mechanism>Трость</mechanism>
+		<wheel>6</wheel>
+		<material>Резиновые</material>
+		<age>3 года</age>
+		<color>Серый</color>
+	</product>
+	<product id='2'>
+		<title>Прогулочная коляска CARRELLO Allegro</title>
+		<price>1850 грн.</price>
+		<image>baby_care_2 </image>
+		<type>Обычная</type>
+		<bloks>Два</bloks>
+		<mechanism>Трость</mechanism>
+		<wheel>6</wheel>
+		<material>Резиновые</material>
+		<age>2 года</age>
+		<color>Красный</color>
+	</product>
+	<product id='3'>
+		<title>Коляска прогулочная Be Cool Silla</title>
+		<price>1300 грн.</price>
+		<image>baby_care_3 </image>
+		<type>Обычная</type>
+		<bloks>Один</bloks>
+		<mechanism>Трость</mechanism>
+		<wheel>6</wheel>
+		<material>Резиновые</material>
+		<age>2 года</age>
+		<color>Красный</color>
+	</product>
+	<product id='4'>
+		<title>Прогулочная коляска Camarelo Elf</title>
+		<price>2320 грн.</price>
+		<image>baby_care_4 </image>
+		<type>Обычная</type>
+		<bloks>Два</bloks>
+		<mechanism>Книжка</mechanism>
+		<wheel>6</wheel>
+		<material>Резиновые</material>
+		<age>3 года</age>
+		<color>Розовый</color>
+	</product>
+	<product id='5'>
+		<title>Прогулочная коляска Caretero Alfa</title>
+		<price>2450 грн.</price>
+		<image>baby_care_5 </image>
+		<type>Обычная</type>
+		<bloks>Один</bloks>
+		<mechanism>Трость</mechanism>
+		<wheel>8</wheel>
+		<material>Резиновые</material>
+		<age>2 года</age>
+		<color>Зеленый</color>
+	</product>
+	<product id='6'>
+		<title>Коляска прогулочная Babyhit Neos Noble</title>
+		<price>1900 грн.</price>
+		<image>baby_care_6 </image>
+		<type>Обычная</type>
+		<bloks>Один</bloks>
+		<mechanism>Книжка</mechanism>
+		<wheel>8</wheel>
+		<material>Резиновые</material>
+		<age>4 года</age>
+		<color>Зеленый</color>
+	</product>
+	<product id='7'>
+		<title>Прогулочная коляска Joie Litetrax 4</title>
+		<price>2580 грн.</price>
+		<image>baby_care_7 </image>
+		<type>Обычная</type>
+		<bloks>Один</bloks>
+		<mechanism>Книжка</mechanism>
+		<wheel>8</wheel>
+		<material>Полиуретан</material>
+		<age>2 года</age>
+		<color>Бежевый</color>
+	</product>
+	<product id='8'>
+		<title>Коляска прогулочная Maclaren Atom</title>
+		<price>2330 грн.</price>
+		<image>baby_care_8 </image>
+		<type>Обычная</type>
+		<bloks>Один</bloks>
+		<mechanism>Книжка</mechanism>
+		<wheel>4</wheel>
+		<material>Резиновые</material>
+		<age>4 года</age>
+		<color>Черный</color>
+	</product>
+	<product id='9'>
+		<title>Прогулочная коляска 4Baby Moody</title>
+		<price>11790 грн.</price>
+		<image>baby_care_9 </image>
+		<type>Дотерская</type>
+		<bloks>Один</bloks>
+		<mechanism>Трость</mechanism>
+		<wheel>4</wheel>
+		<material>Резиновые</material>
+		<age>1 год</age>
+		<color>Темно-бирюзовый</color>
+	</product>
+	<product id='10'>
+		<title>Коляска Thule Chariot Sport</title>
+		<price>1930 грн.</price>
+		<image>baby_care_10 </image>
+		<type>Обычная</type>
+		<bloks>Один</bloks>
+		<mechanism>None</mechanism>
+		<wheel>4</wheel>
+		<material>Резиновые</material>
+		<age>4 года</age>
+		<color>Синий с зеленым</color>
+	</product>
+</category>
