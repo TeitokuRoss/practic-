@@ -219,12 +219,16 @@ header  .span_phone {
   color: #305069;
 }
 
+.capitalsList{
 
+  column-count: 2;
+}
 
 ul {
   padding-left: 10px;
   text-align: left;
   list-style: none outside;
+  
 }
 a {
   text-decoration: none;
@@ -338,6 +342,7 @@ a:hover {
 .brand, .news {
   display: flex;
   flex-direction: column;
+  
 }
 .news h4, .brand h4 {
   align-self: center;

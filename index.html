@@ -299,7 +299,7 @@
                 <h4>Список брендов</h4>
                 <div class="row">
                   <div class="col">
-                    <ul>
+                    <!--ul>
                       <li>Sherma Group</li>
                       <li>Aro</li>
                       <li>Adamex</li><li>Bebetto</li>
@@ -346,7 +346,7 @@
                       <li>Infinity</li>
                       <li>Kajtex</li>
                       <li>Riko</li>
-                    </ul>
+                    </ul-->
                   </div>
                 </div>
               </div><!--Бренды-->
@@ -408,6 +408,22 @@
   <script src="js/jquery.tmpl.min.js"></script>
   <script src="js/jquery.cookie.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    fetch('https://restcountries.eu/rest/v2/regionalbloc/eu')
+        .then((response)=>{
+            return response.json();
+        })
+        .then((resp)=>{
+            var listofcapitals=document.createElement('ul');
+            listofcapitals.classList.add("capitalsList");
+            resp.forEach(function(item){
+                var ListViewItem=document.createElement('li');
+                ListViewItem.appendChild(document.createTextNode(item.capital));
+                listofcapitals.appendChild(ListViewItem);
+            })
+            document.getElementsByClassName("brand")[0].appendChild(listofcapitals);
+        });
+</script>
 
 
 </body>
