@@ -1,12 +1,39 @@
 self.addEventListener('install', function(event) {
-    console.log('[Service Worker] Installing Service Worker ...', event);
-  });
-  self.addEventListener('activate', function(event) {
- console.log('[Service Worker] Activating Service Worker ...', event);
- return self.clients.claim();
- });
-   self.addEventListener('fetch', function(event) {
-    console.log('[Service Worker] Fetching something ....', event);
-    event.respondWith(fetch(event.request));
-  });
+  console.log('[Service Worker] Installing Service Worker ...', event);
+  event.waitUntil(
+      caches.open("static")
+          .then(function (cache) {
+              console.log("precaching");
+              cache.add('/index.html');
+              cache.add("/css/bootsrap.css");
+              cache.add("/css/style.css");
+              cache.add("/css/jquery-ui.min.css");
+              cache.add("/img/logo_footer.png");
+              cache.add("/favicon.ico");
+              cache.add('/');
+          })
+  );
+});
+self.addEventListener('activate', function(event) {
+  console.log('[Service Worker] Activating Service Worker ...', event);
+  return self.clients.claim();
+});
+self.addEventListener('fetch', function(event) {
+  console.log('[Service Worker] Fetching something ....', event);
+  event.respondWith(
+      caches.match(event.request)
+          .then(function (response) {
+              if (response)
+                  return response;
+              else
+                  return  fetch(event.request);
+          })
+  );
+});
+
+self.addEventListener('push', event => {
+  const notification = event.data.text();
+  self.registration.showNotification(notification, {});
+});
+
  
